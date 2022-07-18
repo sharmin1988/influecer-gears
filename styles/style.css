@@ -1,0 +1,41 @@
+/* font name */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common area  */
+.body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+/* Header section styles  */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    
+}
+.header-title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 120px;
+    background-color: bisque;
+}
+.header-nav a{
+    text-decoration: none;
+    color: black;
+
+}
+.header-nav{
+    margin-right: 34px;
+    width: 463px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color:lavenderblush;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
