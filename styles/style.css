@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* Common area  */
-.body{
+body{
     font-family: 'Poppins', sans-serif;
+
 }
 .container{
     margin-top: 50px;
@@ -12,7 +13,9 @@
 
 
 
-/* Header section styles  */
+/*==============================================
+************** Header section styles **********
+=============================================== */
 .header{
     display: flex;
     justify-content: space-between;
@@ -23,7 +26,6 @@
     font-weight: 700;
     font-size: 24px;
     margin-left: 120px;
-    background-color: bisque;
 }
 .header-nav a{
     text-decoration: none;
@@ -36,7 +38,6 @@
     height: 36px;
     font-weight: 600;
     font-size: 16px;
-    background-color:lavenderblush;
     display: flex;
     justify-content: space-between;
     align-items: center;   
@@ -45,14 +46,13 @@
 
 
 
-/*-----------------------------------------
-         Start journey section styles
---------------------------------------------*/
+/*-----------------------------------------=================
+                 Start journey section styles 
+--------------------------------------------=================*/
 .start-journey{
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgb(246, 208, 213);
 }
 .start-journey-intro{
     width: 582px;
@@ -84,7 +84,7 @@
     font-weight: 700;
     color: white;
 }
-.fa-arrow-right{
+#arrow{
     width: 24px;
     height: 24px;
     color: white;
@@ -92,8 +92,6 @@
     justify-content: center;
     align-items: center;
 }
-
-
 .start-journey-photo{
     height: 475px;   
 }
@@ -106,4 +104,98 @@
     margin-right: 30px;
     margin-bottom: 30px;
     margin-left: 2px;
+}
+
+
+
+
+/*================================================
+---------------------- Logos sec style  ----------
+==================================================*/
+
+.logos-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 165px;
+}
+.logos{
+    width: 1110px;
+    height: 110px;
+    background-color: rgb(234, 241, 169);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+/*==================================================
+                 populer collection section  
+====================================================*/
+
+.populer-collection-container{
+    width: 90%;
+    height: 1700px;
+    margin-left: 5%;
+}
+.p-head{
+    font-size: 28px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.populer-collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    border-radius: 5px;
+}
+.populer-collection{
+    height: 476px;
+    padding: 16px 17px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.collection-img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.populer-collection h2{
+    margin: 16px 0 6px 0;
+    font-size: 28px;
+}
+.populer-collection h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+.rateing{
+    width: 122px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.fa-solid{
+    width: 16px;
+    height: 16px;
+    color: #FB8200;
+}
+.rate{
+    font-size: 14px;
+    padding-left: 9px;
+    color: #5E6366;
+}
+.collection-detail p{
+    font-weight: 700;
+    font-size: 14px;   
+    color: #787885;
+    margin: 0;
 }
